@@ -46,7 +46,7 @@ const extractRootWords = data => {
   const rootWords = data.map(wordObject => {
     return wordObject.Word.trim()
   })
-  console.log(rootWords)
+  
   return rootWords
 }
 
@@ -83,29 +83,38 @@ async function fetchWordInfos(words) {
 }
 
 
+
+
+
+
+/////////////////////////////////////
 async function fetchWordInfosRecursive(words) {
 
-  
-  recursiveApiCall(words, 0, [])
-
-  
   const recursiveApiCall = (words, n, acc) => {
     if( n > words.length - 1 ){
+      console.log(acc)
       return acc
     } else {
-      const word = words[n]
-      const URL = `https://od-api.oxforddictionaries.com/api/v2/thesaurus/en-gb/${word}?strictMatch=false`;
-  
-      axios.get(URL, config).then(response => {
-        acc.push(response.data.results)
-        recursiveApiCall(words, n + 1, acc)
-      })
+        const word = words[n]
+        const URL = `https://od-api.oxforddictionaries.com/api/v2/thesaurus/en-gb/${word}?strictMatch=false`;
+    
+        axios.get(URL, config).then(response => {
+          acc.push(response.data.results)
+          recursiveApiCall(words, n + 1, acc)
+        })
+
+        // console.log(n)
+        // acc.push(n)
+        // recursiveApiCall(words, n + 1, acc)
+      
     }
 
   }
+
+  recursiveApiCall(words, 0, [])
   
 }
 
 
-module.exports = { formatJsonData, fetchWordInfos, extractRootWords }
+module.exports = { formatJsonData, fetchWordInfos, extractRootWords, fetchWordInfosRecursive }
 
