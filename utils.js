@@ -58,18 +58,21 @@ async function fetchWordInfos(words) {
    
     const URL = `https://od-api.oxforddictionaries.com/api/v2/thesaurus/en-gb/${word}?strictMatch=false`;
 
-      const response = await axios.get(URL, {
+      return Promise.resolve(axios.get(URL, {
         headers: {
           app_id: "6a753563",
           app_key: "4ed66b63acb3c546838c88c7ab5d3c12"
         }
-      });
+      })).then((response) => {
+        // return response.data.results;
+        return response
+      })
 
-    return response.data.results;
+    
   })
   
 
-  const results = await Promise.all(promises);
+  const results = promises
   console.log(results[0][0].lexicalEntries[0].entries[0].senses[0].synonyms);
 
   fs.writeFile("./newData.json", JSON.stringify(results), err => {
@@ -115,6 +118,10 @@ async function fetchWordInfosRecursive(words) {
   
 }
 
+const getLength = (data) => {
+  console.log('data length: ', data.length)
+}
 
-module.exports = { formatJsonData, fetchWordInfos, extractRootWords, fetchWordInfosRecursive }
+
+module.exports = { formatJsonData, fetchWordInfos, extractRootWords, fetchWordInfosRecursive, getLength }
 
