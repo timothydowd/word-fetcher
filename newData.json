@@ -1,0 +1,874 @@
+[{
+    "Beautiful": {
+        "antonyms": [{
+            "id": "ugly",
+            "language": "en",
+            "text": "ugly"
+        }],
+        "synonyms": [{
+            "id": "attractive",
+            "language": "en",
+            "text": "attractive"
+        }, {
+            "id": "pretty",
+            "language": "en",
+            "text": "pretty"
+        }, {
+            "id": "handsome",
+            "language": "en",
+            "text": "handsome"
+        }, {
+            "id": "good-looking",
+            "language": "en",
+            "text": "good-looking"
+        }, {
+            "language": "en",
+            "text": "nice-looking"
+        }, {
+            "id": "pleasing",
+            "language": "en",
+            "text": "pleasing"
+        }, {
+            "id": "alluring",
+            "language": "en",
+            "text": "alluring"
+        }, {
+            "id": "prepossessing",
+            "language": "en",
+            "text": "prepossessing"
+        }, {
+            "language": "en",
+            "text": "as pretty as a picture"
+        }]
+    }
+}, {
+    "Because": {
+        "antonyms": [{
+            "id": "despite",
+            "language": "en",
+            "text": "despite"
+        }],
+        "synonyms": [{
+            "language": "en",
+            "text": "since"
+        }, {
+            "id": "as",
+            "language": "en",
+            "text": "as"
+        }, {
+            "language": "en",
+            "text": "for the reason that"
+        }, {
+            "language": "en",
+            "text": "in view of the fact that"
+        }, {
+            "language": "en",
+            "text": "owing to the fact that"
+        }, {
+            "language": "en",
+            "text": "seeing as"
+        }, {
+            "language": "en",
+            "text": "seeing that"
+        }]
+    }
+}, null, {
+    "Believe": {
+        "antonyms": [{
+            "id": "disbelieve",
+            "language": "en",
+            "text": "disbelieve"
+        }],
+        "synonyms": [{
+            "language": "en",
+            "text": "be convinced by"
+        }, {
+            "id": "trust",
+            "language": "en",
+            "text": "trust"
+        }, {
+            "language": "en",
+            "text": "have confidence in"
+        }, {
+            "language": "en",
+            "text": "consider honest"
+        }, {
+            "language": "en",
+            "text": "consider truthful"
+        }]
+    }
+}, {
+    "Belligerent": {
+        "antonyms": [{
+            "id": "friendly",
+            "language": "en",
+            "text": "friendly"
+        }, {
+            "id": "peaceable",
+            "language": "en",
+            "text": "peaceable"
+        }],
+        "synonyms": [{
+            "id": "hostile",
+            "language": "en",
+            "text": "hostile"
+        }, {
+            "id": "aggressive",
+            "language": "en",
+            "text": "aggressive"
+        }, {
+            "id": "threatening",
+            "language": "en",
+            "text": "threatening"
+        }, {
+            "id": "antagonistic",
+            "language": "en",
+            "text": "antagonistic"
+        }, {
+            "id": "pugnacious",
+            "language": "en",
+            "text": "pugnacious"
+        }, {
+            "id": "bellicose",
+            "language": "en",
+            "text": "bellicose"
+        }, {
+            "id": "truculent",
+            "language": "en",
+            "text": "truculent"
+        }, {
+            "language": "en",
+            "text": "confrontational"
+        }, {
+            "id": "argumentative",
+            "language": "en",
+            "text": "argumentative"
+        }, {
+            "id": "quarrelsome",
+            "language": "en",
+            "text": "quarrelsome"
+        }, {
+            "language": "en",
+            "text": "disputatious"
+        }, {
+            "id": "contentious",
+            "language": "en",
+            "text": "contentious"
+        }, {
+            "id": "militant",
+            "language": "en",
+            "text": "militant"
+        }, {
+            "id": "combative",
+            "language": "en",
+            "text": "combative"
+        }]
+    }
+}, {
+    "Bemused": {
+        "synonyms": [{
+            "id": "bewildered",
+            "language": "en",
+            "text": "bewildered"
+        }, {
+            "id": "confused",
+            "language": "en",
+            "text": "confused"
+        }, {
+            "id": "puzzled",
+            "language": "en",
+            "text": "puzzled"
+        }, {
+            "id": "perplexed",
+            "language": "en",
+            "text": "perplexed"
+        }, {
+            "language": "en",
+            "text": "baffled"
+        }, {
+            "language": "en",
+            "text": "stumped"
+        }, {
+            "language": "en",
+            "text": "mystified"
+        }, {
+            "language": "en",
+            "text": "stupefied"
+        }, {
+            "id": "nonplussed",
+            "language": "en",
+            "text": "nonplussed"
+        }, {
+            "id": "muddled",
+            "language": "en",
+            "text": "muddled"
+        }, {
+            "id": "befuddled",
+            "language": "en",
+            "text": "befuddled"
+        }, {
+            "id": "fuddled",
+            "language": "en",
+            "text": "fuddled"
+        }, {
+            "id": "dumbfounded",
+            "language": "en",
+            "text": "dumbfounded"
+        }, {
+            "id": "at_sea",
+            "language": "en",
+            "text": "at sea"
+        }, {
+            "id": "at_a_loss",
+            "language": "en",
+            "text": "at a loss"
+        }, {
+            "id": "at_sixes_and_sevens",
+            "language": "en",
+            "text": "at sixes and sevens"
+        }, {
+            "language": "en",
+            "text": "thrown"
+        }, {
+            "language": "en",
+            "text": "thrown off balance"
+        }, {
+            "language": "en",
+            "text": "taken aback"
+        }, {
+            "id": "disoriented",
+            "language": "en",
+            "text": "disoriented"
+        }, {
+            "language": "en",
+            "text": "disconcerted"
+        }, {
+            "language": "en",
+            "text": "discomposed"
+        }, {
+            "id": "troubled",
+            "language": "en",
+            "text": "troubled"
+        }, {
+            "language": "en",
+            "text": "discomfited"
+        }, {
+            "language": "en",
+            "text": "unnerved"
+        }, {
+            "language": "en",
+            "text": "shaken"
+        }, {
+            "language": "en",
+            "text": "shaken up"
+        }, {
+            "language": "en",
+            "text": "dazed"
+        }, {
+            "language": "en",
+            "text": "stunned"
+        }, {
+            "id": "astonished",
+            "language": "en",
+            "text": "astonished"
+        }, {
+            "language": "en",
+            "text": "astounded"
+        }]
+    }
+}, {
+    "Benefit": {
+        "antonyms": [{
+            "id": "detriment",
+            "language": "en",
+            "text": "detriment"
+        }],
+        "synonyms": [{
+            "id": "good",
+            "language": "en",
+            "text": "good"
+        }, {
+            "id": "sake",
+            "language": "en",
+            "text": "sake"
+        }, {
+            "id": "interest",
+            "language": "en",
+            "text": "interest"
+        }, {
+            "id": "welfare",
+            "language": "en",
+            "text": "welfare"
+        }, {
+            "id": "well-being",
+            "language": "en",
+            "text": "well-being"
+        }, {
+            "id": "satisfaction",
+            "language": "en",
+            "text": "satisfaction"
+        }, {
+            "id": "enjoyment",
+            "language": "en",
+            "text": "enjoyment"
+        }, {
+            "id": "advantage",
+            "language": "en",
+            "text": "advantage"
+        }, {
+            "id": "comfort",
+            "language": "en",
+            "text": "comfort"
+        }, {
+            "id": "ease",
+            "language": "en",
+            "text": "ease"
+        }, {
+            "id": "convenience",
+            "language": "en",
+            "text": "convenience"
+        }]
+    }
+}, null, {
+    "Betray": {
+        "antonyms": [{
+            "language": "en",
+            "text": "be loyal to"
+        }],
+        "synonyms": [{
+            "language": "en",
+            "text": "break one's promise to"
+        }, {
+            "language": "en",
+            "text": "be disloyal to"
+        }, {
+            "language": "en",
+            "text": "be unfaithful to"
+        }, {
+            "id": "break_faith_with",
+            "language": "en",
+            "text": "break faith with"
+        }, {
+            "language": "en",
+            "text": "play someone false"
+        }, {
+            "id": "fail",
+            "language": "en",
+            "text": "fail"
+        }, {
+            "language": "en",
+            "text": "let down"
+        }]
+    }
+}, {
+    "Bewildered": {
+        "synonyms": [{
+            "language": "en",
+            "text": "baffled"
+        }, {
+            "language": "en",
+            "text": "mystified"
+        }, {
+            "id": "bemused",
+            "language": "en",
+            "text": "bemused"
+        }, {
+            "id": "perplexed",
+            "language": "en",
+            "text": "perplexed"
+        }, {
+            "id": "puzzled",
+            "language": "en",
+            "text": "puzzled"
+        }, {
+            "id": "confused",
+            "language": "en",
+            "text": "confused"
+        }, {
+            "id": "nonplussed",
+            "language": "en",
+            "text": "nonplussed"
+        }, {
+            "id": "at_sea",
+            "language": "en",
+            "text": "at sea"
+        }, {
+            "id": "at_a_loss",
+            "language": "en",
+            "text": "at a loss"
+        }, {
+            "language": "en",
+            "text": "thrown off balance"
+        }, {
+            "id": "disorientated",
+            "language": "en",
+            "text": "disorientated"
+        }, {
+            "language": "en",
+            "text": "taken aback"
+        }]
+    }
+}, {
+    "Bicycle": {
+        "synonyms": [{
+            "id": "cycle",
+            "language": "en",
+            "text": "cycle"
+        }, {
+            "language": "en",
+            "text": "two-wheeler"
+        }, {
+            "language": "en",
+            "text": "pedal cycle"
+        }]
+    }
+}, {
+    "Brief": {
+        "antonyms": [{
+            "id": "lengthy",
+            "language": "en",
+            "text": "lengthy"
+        }, {
+            "id": "long-winded",
+            "language": "en",
+            "text": "long-winded"
+        }],
+        "synonyms": [{
+            "id": "concise",
+            "language": "en",
+            "text": "concise"
+        }, {
+            "id": "succinct",
+            "language": "en",
+            "text": "succinct"
+        }, {
+            "id": "short",
+            "language": "en",
+            "text": "short"
+        }, {
+            "id": "thumbnail",
+            "language": "en",
+            "text": "thumbnail"
+        }, {
+            "id": "to_the_point",
+            "language": "en",
+            "text": "to the point"
+        }, {
+            "id": "pithy",
+            "language": "en",
+            "text": "pithy"
+        }, {
+            "id": "incisive",
+            "language": "en",
+            "text": "incisive"
+        }, {
+            "language": "en",
+            "text": "short and sweet"
+        }, {
+            "id": "crisp",
+            "language": "en",
+            "text": "crisp"
+        }, {
+            "id": "abridged",
+            "language": "en",
+            "text": "abridged"
+        }, {
+            "id": "condensed",
+            "language": "en",
+            "text": "condensed"
+        }, {
+            "language": "en",
+            "text": "compressed"
+        }, {
+            "id": "abbreviated",
+            "language": "en",
+            "text": "abbreviated"
+        }, {
+            "id": "compact",
+            "language": "en",
+            "text": "compact"
+        }, {
+            "id": "compendious",
+            "language": "en",
+            "text": "compendious"
+        }, {
+            "language": "en",
+            "text": "potted"
+        }]
+    }
+}, {
+    "Broad": {
+        "antonyms": [{
+            "id": "narrow",
+            "language": "en",
+            "text": "narrow"
+        }],
+        "synonyms": [{
+            "id": "wide",
+            "language": "en",
+            "text": "wide"
+        }, {
+            "id": "large",
+            "language": "en",
+            "text": "large"
+        }, {
+            "id": "big",
+            "language": "en",
+            "text": "big"
+        }]
+    }
+}, {
+    "Bruise": {
+        "synonyms": [{
+            "id": "contusion",
+            "language": "en",
+            "text": "contusion"
+        }, {
+            "id": "lesion",
+            "language": "en",
+            "text": "lesion"
+        }, {
+            "id": "mark",
+            "language": "en",
+            "text": "mark"
+        }, {
+            "id": "injury",
+            "language": "en",
+            "text": "injury"
+        }, {
+            "language": "en",
+            "text": "black-and-blue mark"
+        }, {
+            "language": "en",
+            "text": "skin discoloration"
+        }, {
+            "language": "en",
+            "text": "blackening"
+        }]
+    }
+}, {
+    "Brusque": {
+        "antonyms": [{
+            "id": "polite",
+            "language": "en",
+            "text": "polite"
+        }, {
+            "id": "verbose",
+            "language": "en",
+            "text": "verbose"
+        }],
+        "synonyms": [{
+            "id": "curt",
+            "language": "en",
+            "text": "curt"
+        }, {
+            "id": "abrupt",
+            "language": "en",
+            "text": "abrupt"
+        }, {
+            "id": "blunt",
+            "language": "en",
+            "text": "blunt"
+        }, {
+            "id": "short",
+            "language": "en",
+            "text": "short"
+        }, {
+            "id": "sharp",
+            "language": "en",
+            "text": "sharp"
+        }, {
+            "id": "terse",
+            "language": "en",
+            "text": "terse"
+        }, {
+            "id": "brisk",
+            "language": "en",
+            "text": "brisk"
+        }, {
+            "id": "crisp",
+            "language": "en",
+            "text": "crisp"
+        }, {
+            "language": "en",
+            "text": "clipped"
+        }, {
+            "language": "en",
+            "text": "monosyllabic"
+        }, {
+            "id": "peremptory",
+            "language": "en",
+            "text": "peremptory"
+        }, {
+            "id": "gruff",
+            "language": "en",
+            "text": "gruff"
+        }, {
+            "id": "bluff",
+            "language": "en",
+            "text": "bluff"
+        }]
+    }
+}, {
+    "Burden": {
+        "synonyms": [{
+            "id": "load",
+            "language": "en",
+            "text": "load"
+        }, {
+            "id": "cargo",
+            "language": "en",
+            "text": "cargo"
+        }, {
+            "id": "freight",
+            "language": "en",
+            "text": "freight"
+        }, {
+            "id": "weight",
+            "language": "en",
+            "text": "weight"
+        }]
+    }
+}, {
+    "Business": {
+        "synonyms": [{
+            "id": "work",
+            "language": "en",
+            "text": "work"
+        }, {
+            "language": "en",
+            "text": "line of work"
+        }, {
+            "id": "line",
+            "language": "en",
+            "text": "line"
+        }, {
+            "id": "occupation",
+            "language": "en",
+            "text": "occupation"
+        }, {
+            "id": "profession",
+            "language": "en",
+            "text": "profession"
+        }, {
+            "id": "career",
+            "language": "en",
+            "text": "career"
+        }, {
+            "id": "employment",
+            "language": "en",
+            "text": "employment"
+        }, {
+            "id": "job",
+            "language": "en",
+            "text": "job"
+        }, {
+            "language": "en",
+            "text": "day job"
+        }, {
+            "id": "position",
+            "language": "en",
+            "text": "position"
+        }, {
+            "id": "pursuit",
+            "language": "en",
+            "text": "pursuit"
+        }, {
+            "id": "vocation",
+            "language": "en",
+            "text": "vocation"
+        }, {
+            "id": "calling",
+            "language": "en",
+            "text": "calling"
+        }, {
+            "id": "field",
+            "language": "en",
+            "text": "field"
+        }, {
+            "id": "sphere",
+            "language": "en",
+            "text": "sphere"
+        }, {
+            "id": "walk_of_life",
+            "language": "en",
+            "text": "walk of life"
+        }, {
+            "id": "trade",
+            "language": "en",
+            "text": "trade"
+        }, {
+            "id": "craft",
+            "language": "en",
+            "text": "craft"
+        }]
+    }
+}, {
+    "Calamity": {
+        "antonyms": [{
+            "id": "godsend",
+            "language": "en",
+            "text": "godsend"
+        }, {
+            "id": "blessing",
+            "language": "en",
+            "text": "blessing"
+        }],
+        "synonyms": [{
+            "id": "disaster",
+            "language": "en",
+            "text": "disaster"
+        }, {
+            "id": "catastrophe",
+            "language": "en",
+            "text": "catastrophe"
+        }, {
+            "id": "tragedy",
+            "language": "en",
+            "text": "tragedy"
+        }, {
+            "id": "cataclysm",
+            "language": "en",
+            "text": "cataclysm"
+        }, {
+            "language": "en",
+            "text": "devastating blow"
+        }, {
+            "id": "crisis",
+            "language": "en",
+            "text": "crisis"
+        }, {
+            "id": "adversity",
+            "language": "en",
+            "text": "adversity"
+        }, {
+            "id": "blight",
+            "language": "en",
+            "text": "blight"
+        }, {
+            "id": "tribulation",
+            "language": "en",
+            "text": "tribulation"
+        }, {
+            "id": "woe",
+            "language": "en",
+            "text": "woe"
+        }, {
+            "id": "affliction",
+            "language": "en",
+            "text": "affliction"
+        }, {
+            "id": "evil",
+            "language": "en",
+            "text": "evil"
+        }]
+    }
+}, {
+    "Candidate": {
+        "synonyms": [{
+            "id": "applicant",
+            "language": "en",
+            "text": "applicant"
+        }, {
+            "language": "en",
+            "text": "job applicant"
+        }, {
+            "language": "en",
+            "text": "job-seeker"
+        }, {
+            "language": "en",
+            "text": "prospective employee"
+        }]
+    }
+}, {
+    "Chaos": {
+        "antonyms": [{
+            "id": "order",
+            "language": "en",
+            "text": "order"
+        }, {
+            "language": "en",
+            "text": "orderliness"
+        }],
+        "synonyms": [{
+            "id": "disorder",
+            "language": "en",
+            "text": "disorder"
+        }, {
+            "id": "disarray",
+            "language": "en",
+            "text": "disarray"
+        }, {
+            "language": "en",
+            "text": "disorganization"
+        }, {
+            "id": "confusion",
+            "language": "en",
+            "text": "confusion"
+        }, {
+            "id": "mayhem",
+            "language": "en",
+            "text": "mayhem"
+        }, {
+            "id": "bedlam",
+            "language": "en",
+            "text": "bedlam"
+        }, {
+            "id": "pandemonium",
+            "language": "en",
+            "text": "pandemonium"
+        }, {
+            "id": "madness",
+            "language": "en",
+            "text": "madness"
+        }, {
+            "id": "havoc",
+            "language": "en",
+            "text": "havoc"
+        }, {
+            "id": "turmoil",
+            "language": "en",
+            "text": "turmoil"
+        }, {
+            "id": "tumult",
+            "language": "en",
+            "text": "tumult"
+        }, {
+            "id": "commotion",
+            "language": "en",
+            "text": "commotion"
+        }, {
+            "id": "disruption",
+            "language": "en",
+            "text": "disruption"
+        }, {
+            "id": "upheaval",
+            "language": "en",
+            "text": "upheaval"
+        }, {
+            "id": "furore",
+            "language": "en",
+            "text": "furore"
+        }, {
+            "id": "frenzy",
+            "language": "en",
+            "text": "frenzy"
+        }, {
+            "id": "uproar",
+            "language": "en",
+            "text": "uproar"
+        }, {
+            "id": "hue_and_cry",
+            "language": "en",
+            "text": "hue and cry"
+        }, {
+            "id": "babel",
+            "language": "en",
+            "text": "babel"
+        }, {
+            "id": "hurly-burly",
+            "language": "en",
+            "text": "hurly-burly"
+        }]
+    }
+}]

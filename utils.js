@@ -64,64 +64,44 @@ async function fetchWordInfos(words) {
           app_key: "4ed66b63acb3c546838c88c7ab5d3c12"
         }
       })).then((response) => {
-        // return response.data.results;
-        return response
+        console.log(response.data.results[0].lexicalEntries[0].entries[0].senses[0].synonyms)
+        console.log(response.data.results[0].lexicalEntries[0].entries[0].senses[0].antonyms)
+
+        const antonyms = response.data.results[0].lexicalEntries[0].entries[0].senses[0].antonyms
+        const synonyms = response.data.results[0].lexicalEntries[0].entries[0].senses[0].synonyms
+
+        return {[word]:{ antonyms, synonyms }}
+        
+      }).catch((err) => {
+        console.log('caught error in map: ', err.response.data)
       })
 
     
   })
   
 
-  const results = promises
-  console.log(results[0][0].lexicalEntries[0].entries[0].senses[0].synonyms);
+  Promise.all(promises).then((result) => {
+    fs.writeFile("./newData.json", JSON.stringify(result), err => {
+      if (err) {
+        console.error(err);
+        return;
+      }
+      //file written successfully
+    });
+  }).catch((err) => {
+    console.log('caught error in fs writefile: ', err.response.data)
+  })
 
-  fs.writeFile("./newData.json", JSON.stringify(results), err => {
-    if (err) {
-      console.error(err);
-      return;
-    }
-    //file written successfully
-  });
-  return results;
-}
-
-
-
-
-
-
-/////////////////////////////////////
-async function fetchWordInfosRecursive(words) {
-
-  const recursiveApiCall = (words, n, acc) => {
-    if( n > words.length - 1 ){
-      console.log(acc)
-      return acc
-    } else {
-        const word = words[n]
-        const URL = `https://od-api.oxforddictionaries.com/api/v2/thesaurus/en-gb/${word}?strictMatch=false`;
-    
-        axios.get(URL, config).then(response => {
-          acc.push(response.data.results)
-          recursiveApiCall(words, n + 1, acc)
-        })
-
-        // console.log(n)
-        // acc.push(n)
-        // recursiveApiCall(words, n + 1, acc)
-      
-    }
-
-  }
-
-  recursiveApiCall(words, 0, [])
+  
   
 }
+
+
 
 const getLength = (data) => {
   console.log('data length: ', data.length)
 }
 
 
-module.exports = { formatJsonData, fetchWordInfos, extractRootWords, fetchWordInfosRecursive, getLength }
+module.exports = { formatJsonData, fetchWordInfos, extractRootWords, getLength }
 
