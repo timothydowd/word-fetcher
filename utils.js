@@ -1,6 +1,6 @@
 const axios = require("axios");
 const fs = require("fs");
-const config = require('./config')
+const config = require('./config.json')
 
 const formatJsonData = json => {
   const formattedData = json.reduce((reducedData, object) => {
@@ -101,12 +101,7 @@ const extractRootWords = data => {
    
     const URL = `https://od-api.oxforddictionaries.com/api/v2/thesaurus/en-gb/${word}?strictMatch=false`;
 
-      const response = await axios.get(URL, {
-        headers: {
-          app_id: "6a753563",
-          app_key: "4ed66b63acb3c546838c88c7ab5d3c12"
-        }
-      })
+      const response = await axios.get(URL, config)
 
       const antonyms = response.data.results[0].lexicalEntries[0].entries[0].senses[0].antonyms
       const synonyms = response.data.results[0].lexicalEntries[0].entries[0].senses[0].synonyms
