@@ -53,49 +53,85 @@ const extractRootWords = data => {
 
 
 
-async function fetchWordInfos(words) {
+// function fetchWordInfos(words) {
+//   const promises = words.map(async word => {
+   
+//     const URL = `https://od-api.oxforddictionaries.com/api/v2/thesaurus/en-gb/${word}?strictMatch=false`;
+
+//       return Promise.resolve(axios.get(URL, {
+//         headers: {
+//           app_id: "6a753563",
+//           app_key: "4ed66b63acb3c546838c88c7ab5d3c12"
+//         }
+//       })).then((response) => {
+//         console.log(response.data.results[0].lexicalEntries[0].entries[0].senses[0].synonyms)
+//         console.log(response.data.results[0].lexicalEntries[0].entries[0].senses[0].antonyms)
+
+//         const antonyms = response.data.results[0].lexicalEntries[0].entries[0].senses[0].antonyms
+//         const synonyms = response.data.results[0].lexicalEntries[0].entries[0].senses[0].synonyms
+
+//         return {[word]:{ antonyms, synonyms }}
+        
+//       }).catch((err) => {
+//         console.log('caught error in map: ', err.response.data)
+//       })
+
+    
+//   })
+  
+
+//   Promise.all(promises).then((result) => {
+//     fs.writeFile("./newData.json", JSON.stringify(result), err => {
+//       if (err) {
+//         console.error(err);
+//         return;
+//       }
+//       //file written successfully
+//     });
+//   }).catch((err) => {
+//     console.log('caught error in fs writefile: ', err.response.data)
+//   })
+
+  
+  
+// }
+
+ async function fetchWordInfos(words) {
   const promises = words.map(async word => {
    
     const URL = `https://od-api.oxforddictionaries.com/api/v2/thesaurus/en-gb/${word}?strictMatch=false`;
 
-      return Promise.resolve(axios.get(URL, {
+      const response = await axios.get(URL, {
         headers: {
           app_id: "6a753563",
           app_key: "4ed66b63acb3c546838c88c7ab5d3c12"
         }
-      })).then((response) => {
-        console.log(response.data.results[0].lexicalEntries[0].entries[0].senses[0].synonyms)
-        console.log(response.data.results[0].lexicalEntries[0].entries[0].senses[0].antonyms)
-
-        const antonyms = response.data.results[0].lexicalEntries[0].entries[0].senses[0].antonyms
-        const synonyms = response.data.results[0].lexicalEntries[0].entries[0].senses[0].synonyms
-
-        return {[word]:{ antonyms, synonyms }}
-        
-      }).catch((err) => {
-        console.log('caught error in map: ', err.response.data)
       })
+
+      const antonyms = response.data.results[0].lexicalEntries[0].entries[0].senses[0].antonyms
+      const synonyms = response.data.results[0].lexicalEntries[0].entries[0].senses[0].synonyms
+
+    return { word: { antonyms, synonyms }}
 
     
   })
   
 
-  Promise.all(promises).then((result) => {
-    fs.writeFile("./newData.json", JSON.stringify(result), err => {
-      if (err) {
-        console.error(err);
-        return;
-      }
-      //file written successfully
-    });
-  }).catch((err) => {
-    console.log('caught error in fs writefile: ', err.response.data)
+  const allPromises = await Promise.all(promises).then((result) => {
+    return result
   })
+  
 
+  fs.writeFile("./newData.json", JSON.stringify(allPromises), err => {
+    if (err) {
+      console.error(err);
+      return;
+    }
+    //file written successfully
+  });
   
   
 }
-
 
 
 const getLength = (data) => {
